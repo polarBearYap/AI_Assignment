@@ -20,23 +20,20 @@
 ## Folder Structure
 
 1) [source_code.ipynb](source_code/python/source_code.ipynb)
-
-Execution time: At most 5 minutes
+   * Execution time: At most 5 minutes
 
 2) [pickles](pickles)
-
-Store objects into a binary file to reduce execution time in [source_code.ipynb](source_code/python/source_code.ipynb).
+   * Store objects into a binary file to reduce execution time in [source_code.ipynb](source_code/python/source_code.ipynb).
 
 3) [make_pickle.ipynb](source_code/python/make_pickle.ipynb)
-
-Pickle objects into the binary files.
+   * Pickle objects into the binary files.
 
 ## List of libraries used:
 1. numpy
 2. pandas
 3. scikit-learn
 4. matplotlib
-5, seaborn
+5. seaborn
 6. [pickle](https://docs.python.org/3/library/pickle.html)
 7. python built-in libraries: re, time, itertools
 8. [cleanipynb](https://pypi.org/project/cleanipynb)
@@ -56,6 +53,5 @@ Pickle objects into the binary files.
   - [rdf](https://www.openml.org/d/40536/rdf)
 
 ## Relevant Paper
-
    * Raymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson. Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.
    The Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673–697, https://doi.org/10.1162/qjec.2006.121.2.673
