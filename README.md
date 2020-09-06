@@ -2,14 +2,11 @@
 
 ## Table of Contents
 1. [Metadata](#Metadata)
-
-  * [Input variables](#Input-variables)
-
-2. 
-
-3. [Source](#Source)
-
-4. [Relevant Paper](#Relevant-Paper)
+2. [Folder Structure](#Folder-Structure)
+3. [Input variables](#Input-variables)
+4. [List of libraries used](#List-of-libraries-used)
+5. [Source](#Source)
+6. [Relevant Paper](#Relevant-Paper)
 
 ## Metadata
 
@@ -20,7 +17,18 @@
 * The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information.
 
 * The binary classification goal is to predict if they were matched or not.
- 
+
+## Folder Structure
+
+1) [source_code.ipynb](source_code/python/source_code.ipynb)
+Execution time: At most 5 minutes
+
+2) [pickles](pickles)
+Store objects into a binary file to reduce execution time in [source_code.ipynb](source_code/python/source_code.ipynb).
+
+3) [make_pickle.ipynb](source_code/python/make_pickle.ipynb)
+Pickle objects into the binary files.
+
 ### Input variables
    
  * gender: Gender of self  
