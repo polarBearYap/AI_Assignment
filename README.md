@@ -2,10 +2,14 @@
 
 ## Table of Contents
 1. [Metadata](#Metadata)
-  1.1 [Input variables](#Input variables)
+
+  * [Input variables](#Input%20variables)
+
 2. 
+
 3. [Source](#Source)
-4. [Relevant Paper](#Relevant Paper)
+
+4. [Relevant Paper](#Relevant%20Paper)
 
 ## Metadata
 
@@ -94,6 +98,12 @@
 5, seaborn
 6. [pickle](https://docs.python.org/3/library/pickle.html)
 7. python built-in libraries: re, time, itertools
+8. [cleanipynb](https://pypi.org/project/cleanipynb)
+
+> cleanipynb will cleanup your jupyter notebook by:
+> - removing unused imports (globally)
+> - moving all imports to the first cell and reordering them
+> - reformatting your code with autopep8
 
 ## Source
 * Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
