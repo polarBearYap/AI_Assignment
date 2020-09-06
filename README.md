@@ -14,10 +14,10 @@
    * Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
    
    * Available at:
-     - [csv, arff] https://www.openml.org/data/get_csv/13153954/speeddating.arff
-     - [json]      https://www.openml.org/d/40536/json 
-     - [xml]       https://www.openml.org/api/v1/data/40536
-     - [rdf]       https://www.openml.org/d/40536/rdf
+     - [csv, arff](https://www.openml.org/data/get_csv/13153954/speeddating.arff)
+     - [json](https://www.openml.org/d/40536/json)
+     - [xml](https://www.openml.org/api/v1/data/40536)
+     - [rdf](https://www.openml.org/d/40536/rdf)
  
 ## Input variables
    
