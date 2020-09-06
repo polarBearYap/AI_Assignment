@@ -1,15 +1,15 @@
 # AI_Assignment: SpeedDating
 
 ## Table of Contents
-1. [Metadata](##Metadata)
+1. [Metadata](#Metadata)
 
-  * [Input variables](##Input%20variables)
+  * [Input variables](#Input-variables)
 
 2. 
 
-3. [Source](##Source)
+3. [Source](#Source)
 
-4. [Relevant Paper](##Relevant%20Paper)
+4. [Relevant Paper](#Relevant-Paper)
 
 ## Metadata
 
