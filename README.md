@@ -5,13 +5,16 @@
    
    * Available at:
     * [csv, arff] https://www.openml.org/data/get_csv/13153954/speeddating.arff
+    
     * [json]      https://www.openml.org/d/40536/json
+    
     * [xml]       https://www.openml.org/api/v1/data/40536
+    
     * [rdf]       https://www.openml.org/d/40536/rdf
     
 ## Relevant Paper
 
-   Raymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson. Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.
+   * Raymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson. Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.
    The Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673–697, https://doi.org/10.1162/qjec.2006.121.2.673
  
 ## Relevant Information
@@ -26,33 +29,69 @@
 
 ## Input variables
    
-   ### Bank client data
-   1. age (numeric)
-   2. job : type of job (categorical: "admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown")
-   3. marital : marital status (categorical: "divorced","married","single","unknown"; note: "divorced" means divorced or widowed)
-   4. education (categorical: "basic.4y","basic.6y","basic.9y","high.school","illiterate","professional.course","university.degree","unknown")
-   5. default: has credit in default? (categorical: "no","yes","unknown")
-   6. housing: has housing loan? (categorical: "no","yes","unknown")
-   7. loan: has personal loan? (categorical: "no","yes","unknown")
-   
-   ### Related with the last contact of the current campaign
-   8. contact: contact communication type (categorical: "cellular","telephone") 
-   9. month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
-  10. day_of_week: last contact day of the week (categorical: "mon","tue","wed","thu","fri")
-  11. duration: last contact duration, in seconds (numeric). Important note:  this attribute highly affects the output target (e.g., if duration=0 then y="no"). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
-  
-  ### Other attributes
-  12. campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
-  13. pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
-  14. previous: number of contacts performed before this campaign and for this client (numeric)
-  15. poutcome: outcome of the previous marketing campaign (categorical: "failure","nonexistent","success")
-  
-  ### Social and economic context attributes
-  16. emp.var.rate: employment variation rate - quarterly indicator (numeric)
-  17. cons.price.idx: consumer price index - monthly indicator (numeric)     
-  18. cons.conf.idx: consumer confidence index - monthly indicator (numeric)     
-  19. euribor3m: euribor 3 month rate - daily indicator (numeric)
-  20. nr.employed: number of employees - quarterly indicator (numeric)
-
-  ### Output variable (desired target)
-  21 - y - has the client subscribed a term deposit? (binary: "yes","no")
+ * gender: Gender of self  
+ * age: Age of self  
+ * age_o: Age of partner  
+ * d_age: Difference in age  
+ * race: Race of self  
+ * race_o: Race of partner  
+ * samerace: Whether the two persons have the same race or not.  
+ * importance_same_race: How important is it that partner is of same race?  
+ * importance_same_religion: How important is it that partner has same religion?  
+ * field: Field of study  
+ * pref_o_attractive: How important does partner rate attractiveness  
+ * pref_o_sinsere: How important does partner rate sincerity  
+ * pref_o_intelligence: How important does partner rate intelligence  
+ * pref_o_funny: How important does partner rate being funny  
+ * pref_o_ambitious: How important does partner rate ambition  
+ * pref_o_shared_interests: How important does partner rate having shared interests  
+ * attractive_o: Rating by partner (about me) at night of event on attractiveness  
+ * sincere_o: Rating by partner (about me) at night of event on sincerity  
+ * intelligence_o: Rating by partner (about me) at night of event on intelligence  
+ * funny_o: Rating by partner (about me) at night of event on being funny  
+ * ambitous_o: Rating by partner (about me) at night of event on being ambitious  
+ * shared_interests_o: Rating by partner (about me) at night of event on shared interest  
+ * attractive_important: What do you look for in a partner - attractiveness  
+ * sincere_important: What do you look for in a partner - sincerity  
+ * intellicence_important: What do you look for in a partner - intelligence  
+ * funny_important: What do you look for in a partner - being funny  
+ * ambtition_important: What do you look for in a partner - ambition  
+ * shared_interests_important: What do you look for in a partner - shared interests  
+ * attractive: Rate yourself - attractiveness  
+ * sincere: Rate yourself - sincerity   
+ * intelligence: Rate yourself - intelligence   
+ * funny: Rate yourself - being funny   
+ * ambition: Rate yourself - ambition  
+ * attractive_partner: Rate your partner - attractiveness  
+ * sincere_partner: Rate your partner - sincerity   
+ * intelligence_partner: Rate your partner - intelligence   
+ * funny_partner: Rate your partner - being funny   
+ * ambition_partner: Rate your partner - ambition   
+ * shared_interests_partner: Rate your partner - shared interests  
+ * sports: Your own interests [1-10]  
+ * tvsports  
+ * exercise  
+ * dining  
+ * museums  
+ * art  
+ * hiking  
+ * gaming  
+ * clubbing  
+ * reading  
+ * tv  
+ * theater  
+ * movies  
+ * concerts  
+ * music  
+ * shopping  
+ * yoga  
+ * interests_correlate: Correlation between participant’s and partner’s ratings of interests.  
+ * expected_happy_with_sd_people: How happy do you expect to be with the people you meet during the speed-dating event?  
+ * expected_num_interested_in_me: Out of the 20 people you will meet, how many do you expect will be interested in dating you?  
+ * expected_num_matches: How many matches do you expect to get?  
+ * like: Did you like your partner?  
+ * guess_prob_liked: How likely do you think it is that your partner likes you?   
+ * met: Have you met your partner before?  
+ * decision: Decision at night of event.
+ * decision_o: Decision of partner at night of event.  
+ * match: Match (yes/no)
