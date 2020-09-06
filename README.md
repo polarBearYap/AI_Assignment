@@ -1,25 +1,23 @@
 # AI_Assignment: SpeedDating
 
+## Table of Contents
+1. [Metadata](#Metadata)
+  1.1 [Input variables](#Input variables)
+2. 
+3. [Source](#Source)
+4. [Relevant Paper](#Relevant Paper)
+
 ## Metadata
 
-   * This data was gathered from participants in experimental speed dating events from 2002-2004.
-   
-   * During the events, the attendees would have a four-minute "first date" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests. 
-   
-   * The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information.
-      
-   * The binary classification goal is to predict if they were matched or not.
+* This data was gathered from participants in experimental speed dating events from 2002-2004.
 
-## Sources
-   * Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
-   
-   * Available at:
-     - [csv, arff](https://www.openml.org/data/get_csv/13153954/speeddating.arff)
-     - [json](https://www.openml.org/d/40536/json)
-     - [xml](https://www.openml.org/api/v1/data/40536)
-     - [rdf](https://www.openml.org/d/40536/rdf)
+* During the events, the attendees would have a four-minute "first date" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests.
+
+* The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information.
+
+* The binary classification goal is to predict if they were matched or not.
  
-## Input variables
+### Input variables
    
  * gender: Gender of self  
  * age: Age of self  
@@ -87,6 +85,24 @@
  * decision: Decision at night of event.
  * decision_o: Decision of partner at night of event.  
  * match: Match (yes/no)
+
+## List of libraries used:
+1. numpy
+2. pandas
+3. scikit-learn
+4. matplotlib
+5, seaborn
+6. [pickle](https://docs.python.org/3/library/pickle.html)
+7. python built-in libraries: re, time, itertools
+
+## Source
+* Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
+   
+* Available at:
+  - [csv, arff](https://www.openml.org/data/get_csv/13153954/speeddating.arff)
+  - [json](https://www.openml.org/d/40536/json)
+  - [xml](https://www.openml.org/api/v1/data/40536)
+  - [rdf](https://www.openml.org/d/40536/rdf)
 
 ## Relevant Paper
 
