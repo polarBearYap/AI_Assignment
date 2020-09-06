@@ -1,23 +1,6 @@
 # AI_Assignment: SpeedDating
 
-## Sources
-   * Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
-   
-   * Available at:
-    * [csv, arff] https://www.openml.org/data/get_csv/13153954/speeddating.arff
-    
-    * [json]      https://www.openml.org/d/40536/json
-    
-    * [xml]       https://www.openml.org/api/v1/data/40536
-    
-    * [rdf]       https://www.openml.org/d/40536/rdf
-    
-## Relevant Paper
-
-   * Raymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson. Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.
-   The Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673–697, https://doi.org/10.1162/qjec.2006.121.2.673
- 
-## Relevant Information
+## Metadata
 
    * This data was gathered from participants in experimental speed dating events from 2002-2004.
    
@@ -27,6 +10,15 @@
       
    * The binary classification goal is to predict if they were matched or not.
 
+## Sources
+   * Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
+   
+   * Available at:
+     - [csv, arff] https://www.openml.org/data/get_csv/13153954/speeddating.arff
+     - [json]      https://www.openml.org/d/40536/json 
+     - [xml]       https://www.openml.org/api/v1/data/40536
+     - [rdf]       https://www.openml.org/d/40536/rdf
+ 
 ## Input variables
    
  * gender: Gender of self  
@@ -95,3 +87,8 @@
  * decision: Decision at night of event.
  * decision_o: Decision of partner at night of event.  
  * match: Match (yes/no)
+
+## Relevant Paper
+
+   * Raymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson. Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.
+   The Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673–697, https://doi.org/10.1162/qjec.2006.121.2.673
