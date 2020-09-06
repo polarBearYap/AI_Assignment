@@ -1,36 +1,28 @@
-# AI_Assignment: Bank Marketing (with social/economic context)
-
-## Citation
-  * This dataset is publicly available for research. The details are described in [Moro et al., 2014]. 
-  * [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, In press, http://dx.doi.org/10.1016/j.dss.2014.03.001
-
-  * Available at:
-    * [pdf] http://dx.doi.org/10.1016/j.dss.2014.03.001
-    * [bib] http://www3.dsi.uminho.pt/pcortez/bib/2014-dss.txt
-
+# AI_Assignment: SpeedDating
 
 ## Sources
-   Created by: Sérgio Moro (ISCTE-IUL), Paulo Cortez (Univ. Minho) and Paulo Rita (ISCTE-IUL) @ 2014
+   * Published by: [Joaquin Vanschoren](https://www.openml.org/u/2) @ 2016 on https://www.openml.org/d/40536
    
-## Past Usage
+   * Available at:
+    * [csv, arff] https://www.openml.org/data/get_csv/13153954/speeddating.arff
+    * [json]      https://www.openml.org/d/40536/json
+    * [xml]       https://www.openml.org/api/v1/data/40536
+    * [rdf]       https://www.openml.org/d/40536/rdf
+    
+## Relevant Paper
 
-  The full dataset (bank-additional-full.csv) was described and analyzed in:
-
-  S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems (2014), doi:10.1016/j.dss.2014.03.001.
+   Raymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson. Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.
+   The Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673–697, https://doi.org/10.1162/qjec.2006.121.2.673
  
 ## Relevant Information
 
-   * This dataset is based on "Bank Marketing" UCI dataset (please check the description at: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
-   * The data is enriched by the addition of five new social and economic features/attributes (national wide indicators from a ~10M population country), published by the Banco de Portugal and publicly available at: https://www.bportugal.pt/estatisticasweb.
-   * This dataset is almost identical to the one used in [Moro et al., 2014] (it does not include all attributes due to privacy concerns). 
-   * Using the rminer package and R tool (http://cran.r-project.org/web/packages/rminer/), we found that the addition of the five new social and economic attributes (made available here) lead to substantial improvement in the prediction of a success, even when the duration of the call is not included. Note: the file can be read in R using: d=read.table("bank-additional-full.csv",header=TRUE,sep=";")
+   * This data was gathered from participants in experimental speed dating events from 2002-2004.
    
-   * The zip file includes two datasets: 
-      1) bank-additional-full.csv with all 41188 examples, ordered by date (from May 2008 to November 2010).
-      2) bank-additional.csv with 10% of the examples (4119), randomly selected from bank-additional-full.csv.
-   * The smallest dataset is provided to test more computationally demanding machine learning algorithms (e.g., SVM).
-
-   * The binary classification goal is to predict if the client will subscribe a bank term deposit (variable y).
+   * During the events, the attendees would have a four-minute "first date" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests. 
+   
+   * The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information.
+      
+   * The binary classification goal is to predict if they were matched or not.
 
 ## Input variables
    
