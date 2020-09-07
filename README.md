@@ -19,17 +19,19 @@
 
 ## Folder Structure
 
-1) [ml_report.ipynb](source_code/python/source_code.ipynb)
+1. Source code
    * Execution time: At most 5 minutes.
+   * Available in [ipynb](source_code/python/source_code.ipynb) and [html](source_code/html/ml_report/ml_report.html)
 
-2) [pickles](pickles)
-   * Store objects into a binary file to reduce execution time in [source_code.ipynb](source_code/python/source_code.ipynb).
+2. Report
+   * Machine learning report in [PDF](report/report.pdf) format.
 
-3) [make_pickle.ipynb](source_code/python/make_pickle.ipynb)
+3. Pickle Maker
    * Pickle objects into the binary files.
+   * Available in [ipynb](source_code/python/make_pickle.ipynb) and [html](source_code/html/make_pickle.html)
    
- 4) [report.pdf](report/report.pdf)
-    * Machine learning report in PDF format.
+4. [pickles](pickles)
+   * Store objects into a binary file to reduce execution time.
 
 ## List of libraries used:
 1. numpy
