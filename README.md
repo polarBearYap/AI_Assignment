@@ -1,11 +1,17 @@
 # AI_Assignment: SpeedDating
 
 ## Table of Contents
+* [Authors](#Authors)
 * [Metadata](#Metadata)
 * [Folder Structure](#Folder-Structure)
 * [List of libraries used](#List-of-libraries-used)
 * [Source](#Source)
 * [Relevant Paper](#Relevant-Paper)
+
+## Authors
+1. [Aaron Kong Kah Lun](https://github.com/TheAEROn)
+2. [Wong Jiun Lin](https://github.com/WongJiunLin)
+3. [Yap Jheng Khin](https://github.com/polarBearYap)
 
 ## Metadata
 
