@@ -27,14 +27,14 @@
 
 1. Source code
    * Execution time: At most 5 minutes.
-   * Available in [ipynb](source_code/python/source_code.ipynb) and [html](source_code/html/ml_report/ml_report.html)
+   * Available in [ipynb](source_code/python/source_code.ipynb) and [html](https://polarbearyap.github.io/speeddating_AI/source_code/html/source_code/source_code.html)
 
 2. Report
    * Machine learning report in [PDF](report/report.pdf) format.
 
 3. Pickle Maker
    * Pickle objects into the binary files.
-   * Available in [ipynb](source_code/python/make_pickle.ipynb) and [html](source_code/html/make_pickle.html)
+   * Available in [ipynb](source_code/python/make_pickle.ipynb) and [html](https://polarbearyap.github.io/speeddating_AI/source_code/html/make_pickle.html)
    
 4. [pickles](pickles)
    * Store objects into a binary file to reduce execution time.
