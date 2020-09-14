@@ -1,4 +1,4 @@
-# AI_Assignment: SpeedDating
+# Machine Learning Project: SpeedDating
 
 ## Table of Contents
 * [Authors](#Authors)
